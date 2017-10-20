@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobaproyek1.FXMLLatihanController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <GridPane layoutX="139.0" layoutY="106.0" prefHeight="133.0" prefWidth="289.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="156.0" minWidth="10.0" prefWidth="68.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="253.0" minWidth="10.0" prefWidth="253.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Nama" />
+            <Label text="Alamat" GridPane.rowIndex="1" />
+            <Label text="Absen" GridPane.rowIndex="2" />
+            <Label text="Telepon" GridPane.rowIndex="3" />
+            <TextField fx:id="editnama" prefHeight="25.0" prefWidth="237.0" GridPane.columnIndex="1" />
+            <TextField fx:id="editalamat" prefHeight="20.0" prefWidth="237.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="editabsen" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="edittelepon" prefHeight="25.0" prefWidth="237.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <Button fx:id="proses" layoutX="275.0" layoutY="249.0" mnemonicParsing="false" onAction="#Proses" text="Proses" />
+      <Label layoutX="284.0" layoutY="51.0" text="Formulir" />
+      <JFXTextArea fx:id="hasil" layoutX="176.0" layoutY="295.0" maxWidth="325.0" minWidth="262.0" prefHeight="107.0" prefWidth="262.0" />
+      <Button fx:id="hapus" layoutX="281.0" layoutY="421.0" mnemonicParsing="false" onAction="#Hapus" text="Hapus" />
+   </children>
+</AnchorPane>
