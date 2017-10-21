@@ -1,2 +1,2 @@
 # biodata
-![alt text] (biodata.PNG)
+![alt text] (PPB&PBO/hasil.PNG)
