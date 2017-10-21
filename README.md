@@ -1,2 +1,2 @@
 # biodata
-[alt text] (biodata.png)
+![alt text] (biodata.PNG)
