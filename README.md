@@ -1,2 +1,2 @@
 # biodata
-![alt text] (PPB&PBO/hasil.PNG)
+![alt text] ( https://raw.githubusercontent.com/putriayuk/biodata/branch/path/to/hasil.png )
