@@ -1,2 +1,2 @@
 # biodata
-![alt tag] (https://github.com/putriayuk/biodata/blob/master/hasil.png)
+![alt text] (https://github.com/putriayuk/biodata/blob/master/hasil.png)
